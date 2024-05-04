@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-eia"
+version = "0.1.0"
+description = "Flask extension for U.S. Energy Information Administration Opendata v2 API data."
+authors = ["Jason Lee Miller <jasonlmiller@jlmillerelectric.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+Flask = "^3.0.3"
+Flask-SQLAlchemy = "^3.1.1"
+Flask-APScheduler = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
